@@ -18,7 +18,7 @@ import (
 var (
 	operatingSystems = []string{"linux", "darwin"}
 	architectures    = []string{"aarch64", "x86_64"}
-	shells           = []string{"bash", "zsh"}
+	shells           = []string{"bash", "zsh","fish"}
 	blingLevels      = []string{"none", "low", "default", "high"}
 	LowPackages      = []string{"htop", "git", "github-cli", "glab"}
 	DefaultPackages  = []string{"fzf", "ripgrep", "vscode"}
